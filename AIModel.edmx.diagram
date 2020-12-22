@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c10f0d0d3af42be96ac94c717abaea7" Name="Diagram1">
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblAdmin" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblDisease" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblfeature" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblImage" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblimage2" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblimage3" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblImageSegment" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblreport" Width="1.5" PointX="8" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblUser" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AIDiseaseDetectionDBModel.tblUserType" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="AIDiseaseDetectionDBModel.FK_tblfeatures_tblDisease" ManuallyRouted="false" />
+        <AssociationConnector Association="AIDiseaseDetectionDBModel.FK_tblImageSegment_tblDisease" ManuallyRouted="false" />
+        <AssociationConnector Association="AIDiseaseDetectionDBModel.FK_tblreport_tblUser" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
