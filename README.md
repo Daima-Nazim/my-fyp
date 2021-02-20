@@ -127,7 +127,7 @@ Open file, you will see the code
 
 
 **Cloning a repository using the command line : 
-**
+
 On GitHub, navigate to the main page of the repository.
 
 Above the list of files, click  Code.
@@ -176,7 +176,9 @@ cv2.GaussainBlur(image, 3*3,50)
 We simply take a single channel of an image and convolve it with the following 3 x 3 kernel:
 
 0	1	0
+
 1	-4	1
+
 0	1	0
  
 **3.Data Augmentation**
@@ -194,3 +196,23 @@ It is used to remove noise and create sharpness in image to get more insight fro
 
 **Note:**
 All these Extraction and preprocessing techniques code are in this repository.
+
+
+
+
+**Authors:**
+
+Daima Nazim
+
+Areej Ikhlaq
+
+
+**Further Readings**
+
+What is Diabetic Retinopathy?
+
+https://www.nhs.uk/conditions/diabetic-retinopathy/#:~:text=Diabetic%20retinopathy%20is%20a%20complication,it%20could%20threaten%20your%20sight.
+
+What is Cataract?
+
+https://www.mayoclinic.org/diseases-conditions/cataracts/symptoms-causes/syc-20353790#:~:text=A%20cataract%20is%20a%20clouding,frosty%20or%20fogged%2Dup%20window.
