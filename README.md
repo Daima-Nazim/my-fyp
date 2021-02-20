@@ -126,8 +126,8 @@ Go to location where you saved .ipynb file
 Open file, you will see the code
 
 
-**Cloning a repository using the command line : **
-
+**Cloning a repository using the command line : 
+**
 On GitHub, navigate to the main page of the repository.
 
 Above the list of files, click  Code.
